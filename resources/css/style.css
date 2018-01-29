@@ -1,0 +1,166 @@
+/* Universal styles */
+
+body {
+	font-family: Helvetica;
+	color: seashell;
+	font-size: 22px;
+	opacity: .9;
+	background-color: black;
+}
+
+.intro-text {
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-size: 33px;
+}
+
+h2 {
+	font-size: 22px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+.main-content {
+	display: flex;
+	justify-content: center;
+	flex-flow: column wrap;
+	z-index: 1; 
+	position: relative;
+	padding-top: 69px;
+}
+
+/* Header */
+header {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 69px;
+	position: fixed;
+	z-index: 5;
+	border-bottom: 1px solid seashell;
+	background-color: black;
+}
+
+.logo img{
+	height: 50px;
+	margin-left: 10px;
+	
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	flex-grow: 1;
+	margin-right: 10px;
+}
+
+a {
+	color: seashell;
+	text-decoration: none;
+}
+
+nav span {
+	display: inline-block;
+	text-decoration: underline;
+	margin-right: 20px;
+}	
+
+/* Hero */
+
+#hero {
+	display: flex;
+	align-items: center;
+	background-image: url(../../resources/images/img-mission-background.jpg);
+	width: 1200px;
+	height: 700px;
+	margin: auto;
+}
+
+#hero .intro-text {
+	background-color: black;
+}
+
+/* Featured */
+#featured {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	margin: 30px auto;
+}
+
+.menu {
+	display: flex;
+	flex-flow: row wrap;
+	width: 1000px;
+	justify-content: center;
+}
+
+
+.item img{
+	max-width: 300px;
+	max-height: 200px;
+	margin: 10px;
+}
+
+
+.item h2 {
+	margin-top: 10px;
+}
+
+/* Locations */
+#locations {
+	background-image: url(../../resources/images/img-locations-background.jpg);
+	width: 1200px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+#locations .intro-text {
+	margin-bottom: 15px;
+}
+.addresses {
+	display: flex;
+	justify-content: center;
+}
+
+.address-box {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	margin: 20px;
+	width: 300px;
+	background-color: black;
+	opacity: 1;
+}
+
+.address-content {
+	text-align: center;
+
+}
+
+.address-content span {
+	display: block;
+	padding: 20px 0px;
+}
+
+/* Footer */
+
+footer {
+	height: 200px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.contact span {
+	display: block;
+	text-align: center;
+	margin: 30px auto;
+}
