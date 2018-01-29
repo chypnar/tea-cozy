@@ -6,6 +6,7 @@ body {
 	font-size: 22px;
 	opacity: .9;
 	background-color: black;
+	text-align: center;
 }
 
 .intro-text {
@@ -91,7 +92,7 @@ nav span {
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
-	margin: 30px auto;
+	margin: 50px auto;
 }
 
 .menu {
